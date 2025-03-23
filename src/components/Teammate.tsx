@@ -7,7 +7,7 @@ import "../style/TeamMate.scss";
 const TeamMate = () => {
     const sectionRef = useRef(null);
     const { inView } = useInView({
-        threshold: 0.2, 
+        threshold: 0,
     });
 
     console.log(inView);
@@ -62,8 +62,7 @@ const TeamMate = () => {
                         key={index}
                         className="teammate-card"
                         initial={{ opacity: 1, y: 50 }}
-                        animate={inView ? { opacity: 1, y: 0 } : { opacity: 1, y: 0 }} 
-
+                        animate={inView ? { opacity: 1, y: 0 } : { opacity: 1, y: 0 }}  // 滾動觸發後保證動畫
                         transition={{ duration: 0.5, delay: index * 0.2 }}
                     >
                         <div 
