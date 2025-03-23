@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
+
 import { useInView } from 'react-intersection-observer'; 
 import "../style/TeamMate.scss";
 
@@ -8,6 +9,8 @@ const TeamMate = () => {
     const { inView } = useInView({
         threshold: 0.2, 
     });
+
+    console.log(inView);
 
     const teamData = [
         {
@@ -60,6 +63,7 @@ const TeamMate = () => {
                         className="teammate-card"
                         initial={{ opacity: 1, y: 50 }}
                         animate={inView ? { opacity: 1, y: 0 } : { opacity: 1, y: 0 }} 
+
                         transition={{ duration: 0.5, delay: index * 0.2 }}
                     >
                         <div 
