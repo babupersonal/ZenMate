@@ -30,7 +30,7 @@ const TeamMate = () => {
                 '品牌美術設計',
                 '品牌形象識別系統'
             ],
-            color: '/Zenmate/image/hito2.jpg'
+            color:'/Zenmate/image/hito2.jpg'
         },
         {
             title: 'CDO\n（Chief Digital Officer）\n數位總監 黃楷烜',
@@ -48,7 +48,7 @@ const TeamMate = () => {
                 '商業模式開發',
                 '財務管理'
             ],
-            color: '/Zenmate/image/hito4.jpg'
+            color:'/Zenmate/image/hito4.jpg'
         }
     ];
 
