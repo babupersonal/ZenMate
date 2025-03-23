@@ -1,15 +1,13 @@
 import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';  // 正確的引入
+import { useInView } from 'react-intersection-observer'; 
 import "../style/TeamMate.scss";
 
 const TeamMate = () => {
     const sectionRef = useRef(null);
     const { inView } = useInView({
-        threshold: 0,
+        threshold: 0.2, 
     });
-
-    console.log(inView);
 
     const teamData = [
         {
