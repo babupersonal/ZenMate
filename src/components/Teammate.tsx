@@ -21,7 +21,7 @@ const TeamMate = () => {
                 '專案構想',
                 '正念科技'
             ],
-            color: '/image/hito1.jpg'
+            color: 'https://babupersonal.github.io/ZenMate/image/hito1.jpg'
         },
         {
             title: 'CAO\n（Chief Art Officer）\n藝術總監 陳品宇',
@@ -31,7 +31,7 @@ const TeamMate = () => {
                 '品牌美術設計',
                 '品牌形象識別系統'
             ],
-            color: '/image/hito2.jpg'
+            color: 'https://babupersonal.github.io/ZenMate/image/hito2.jpg'
         },
         {
             title: 'CDO\n（Chief Digital Officer）\n數位總監 黃楷烜',
@@ -40,7 +40,7 @@ const TeamMate = () => {
                 '數位產品體驗優化',
                 '數位轉型策略'
             ],
-            color: '/image/hito3.jpg'
+            color: 'https://babupersonal.github.io/ZenMate/image/hito3.jpg'
         },
         {
             title: 'CBO\n（Chief Business Officer）\n商務總監 黃威揚',
@@ -49,7 +49,7 @@ const TeamMate = () => {
                 '商業模式開發',
                 '財務管理'
             ],
-            color: '/image/hito4.jpg'
+            color: 'https://babupersonal.github.io/ZenMate/image/hito4.jpg'
         }
     ];    
 
