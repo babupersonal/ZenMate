@@ -12,7 +12,6 @@ const demoItems = [
           { text: "以心靈導師角度開導、閒聊"}
         ]
     },
-
 ];
 const demoItems2 = [
   {
