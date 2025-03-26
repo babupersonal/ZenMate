@@ -62,12 +62,16 @@ const TeamMate = () => {
                         key={index}
                         className="teammate-card"
                         initial={{ opacity: 1, y: 50 }}
-                        animate={inView ? { opacity: 1, y: 0 } : { opacity: 1, y: 0 }}  // 滾動觸發後保證動畫
+                        animate={inView ? { opacity: 1, y: 0 } : { opacity: 1, y: 0 }} 
                         transition={{ duration: 0.5, delay: index * 0.2 }}
                     >
                         <div 
                             className="teammate-image"
-                            style={{ backgroundImage: `url(${member.color})` }} // 動態設置背景圖片
+                            style={{ 
+                                backgroundImage: `url(${member.color})`, 
+                                backgroundSize: 'cover', 
+                                backgroundPosition: 'center' 
+                            }} // 動態設置背景圖片
                         ></div>
                         <div className="teammate-content">
                             <h2>
