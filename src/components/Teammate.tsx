@@ -40,7 +40,7 @@ const TeamMate = () => {
                 '數位產品體驗優化',
                 '數位轉型策略'
             ],
-            color: '/Zenmate/image/hito3.jpg' 
+            color: '/image/hito3.jpg' 
         },
         {
             title: 'CBO\n（Chief Business Officer）\n商務總監 黃威揚',
@@ -49,7 +49,7 @@ const TeamMate = () => {
                 '商業模式開發',
                 '財務管理'
             ],
-            color:'/Zenmate/image/hito4.jpg'
+            color:'/image/hito4.jpg'
         }
     ];
 
