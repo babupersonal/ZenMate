@@ -31,7 +31,7 @@ const TeamMate = () => {
                 '品牌美術設計',
                 '品牌形象識別系統'
             ],
-            color:'/image/hito2.jpg'
+            color: '/image/hito2.jpg'
         },
         {
             title: 'CDO\n（Chief Digital Officer）\n數位總監 黃楷烜',
@@ -40,7 +40,7 @@ const TeamMate = () => {
                 '數位產品體驗優化',
                 '數位轉型策略'
             ],
-            color: '/image/hito3.jpg' 
+            color: '/image/hito3.jpg'
         },
         {
             title: 'CBO\n（Chief Business Officer）\n商務總監 黃威揚',
@@ -49,9 +49,9 @@ const TeamMate = () => {
                 '商業模式開發',
                 '財務管理'
             ],
-            color:'/image/hito4.jpg'
+            color: '/image/hito4.jpg'
         }
-    ];
+    ];    
 
     return (
         <div className="teammate-container" ref={sectionRef}>
