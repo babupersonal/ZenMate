@@ -1,0 +1,109 @@
+{
+  "hash": "de315010",
+  "configHash": "97222b1f",
+  "lockfileHash": "80d594c9",
+  "browserHash": "35d59c08",
+  "optimized": {
+    "@react-three/drei": {
+      "src": "../../node_modules/@react-three/drei/index.js",
+      "file": "@react-three_drei.js",
+      "fileHash": "da425196",
+      "needsInterop": false
+    },
+    "@react-three/fiber": {
+      "src": "../../node_modules/@react-three/fiber/dist/react-three-fiber.esm.js",
+      "file": "@react-three_fiber.js",
+      "fileHash": "cd117e07",
+      "needsInterop": false
+    },
+    "framer-motion": {
+      "src": "../../node_modules/framer-motion/dist/es/index.mjs",
+      "file": "framer-motion.js",
+      "fileHash": "8de3b690",
+      "needsInterop": false
+    },
+    "framer-motion-3d": {
+      "src": "../../node_modules/framer-motion-3d/dist/es/index.mjs",
+      "file": "framer-motion-3d.js",
+      "fileHash": "7c72e03b",
+      "needsInterop": false
+    },
+    "gsap": {
+      "src": "../../node_modules/gsap/index.js",
+      "file": "gsap.js",
+      "fileHash": "41ee9c92",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "4be4835e",
+      "needsInterop": true
+    },
+    "react-countup": {
+      "src": "../../node_modules/react-countup/build/index.js",
+      "file": "react-countup.js",
+      "fileHash": "5a2213c6",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "c11eccf0",
+      "needsInterop": true
+    },
+    "react-intersection-observer": {
+      "src": "../../node_modules/react-intersection-observer/dist/index.mjs",
+      "file": "react-intersection-observer.js",
+      "fileHash": "247462c6",
+      "needsInterop": false
+    },
+    "three": {
+      "src": "../../node_modules/three/build/three.module.js",
+      "file": "three.js",
+      "fileHash": "704b047a",
+      "needsInterop": false
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "f33d331a",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "hls-EKIM6P3F": {
+      "file": "hls-EKIM6P3F.js"
+    },
+    "vision_bundle-WCDRDSFH": {
+      "file": "vision_bundle-WCDRDSFH.js"
+    },
+    "chunk-T2F7LD4Q": {
+      "file": "chunk-T2F7LD4Q.js"
+    },
+    "chunk-4MT5RR7Y": {
+      "file": "chunk-4MT5RR7Y.js"
+    },
+    "chunk-TSZEQ7X3": {
+      "file": "chunk-TSZEQ7X3.js"
+    },
+    "chunk-QISKWULF": {
+      "file": "chunk-QISKWULF.js"
+    },
+    "chunk-B3IDMKNF": {
+      "file": "chunk-B3IDMKNF.js"
+    },
+    "chunk-EIXAIBV3": {
+      "file": "chunk-EIXAIBV3.js"
+    },
+    "chunk-YJBZTQEM": {
+      "file": "chunk-YJBZTQEM.js"
+    },
+    "chunk-GWAROZSO": {
+      "file": "chunk-GWAROZSO.js"
+    },
+    "chunk-V4OQ3NZ2": {
+      "file": "chunk-V4OQ3NZ2.js"
+    }
+  }
+}

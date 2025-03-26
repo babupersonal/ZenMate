@@ -1,0 +1,111 @@
+.teammate-container {
+    padding: 5%;
+    text-align: center;
+
+    .title {
+        width: 100%;
+        font-size: 3em;
+        font-weight: bold;
+        margin-bottom: 2rem;
+
+        @media (max-width: 768px) {
+            font-size: 2.5em;
+        }
+    }
+    
+    .teammate-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.5rem;
+
+        @media (max-width: 1024px) {
+            grid-template-columns: repeat(2, 1fr); /* 平板：每排顯示兩個卡片 */
+        }
+
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr; /* 手機：每排顯示一個卡片 */
+        }
+    }
+    
+    .teammate-card {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+        text-align: center;
+        opacity: 1;
+
+        &:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        @media (max-width: 768px) {
+            padding: 1rem;
+        }
+    }
+    
+    .teammate-image {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+
+        @media (max-width: 768px) {
+            width: 80px;
+            height: 80px;
+        }
+    }
+    
+    .teammate-content h2 {
+        font-size: 1.5em;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        white-space: pre-line;
+
+        .small-text {
+            font-size: 0.8em;
+            color: gray;
+
+            @media (max-width: 768px) {
+                font-size: 0.7em;
+            }
+        }
+
+        @media (max-width: 768px) {
+            font-size: 1.2em;
+        }
+    }
+    
+    .teammate-content ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .teammate-content ul li {
+        padding: 0.2rem 0;
+        font-size: 1em;
+
+        @media (max-width: 768px) {
+            font-size: 0.9em;
+        }
+    }
+    
+    .bg-red-400 {
+        background-color: #f87171;
+    }
+    
+    .bg-blue-400 {
+        background-color: #60a5fa;
+    }
+    
+    .bg-green-400 {
+        background-color: #34d399;
+    }
+    
+    .bg-yellow-400 {
+        background-color: #fbbf24;
+    }
+}
