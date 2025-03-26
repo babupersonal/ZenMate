@@ -21,7 +21,7 @@ const TeamMate = () => {
                 '專案構想',
                 '正念科技'
             ],
-            color: '/Zenmate/image/hito1.jpg'
+            color: '/image/hito1.jpg'
         },
         {
             title: 'CAO\n（Chief Art Officer）\n藝術總監 陳品宇',
@@ -31,7 +31,7 @@ const TeamMate = () => {
                 '品牌美術設計',
                 '品牌形象識別系統'
             ],
-            color:'/Zenmate/image/hito2.jpg'
+            color:'/image/hito2.jpg'
         },
         {
             title: 'CDO\n（Chief Digital Officer）\n數位總監 黃楷烜',
